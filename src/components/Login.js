@@ -107,15 +107,12 @@ const Login = () => {
             placeholder="Email or Phone Number"
             className="p-4 my-2  w-full text-gray-400 bg-gray-700"
           />
-
           <input
             ref={password}
             type="password"
             placeholder="Password"
             className="p-4 my-2 w-full  text-gray-400  bg-gray-700"
           />
-          <p className="my-3 text-red-500 ">{errorMessage}</p>
-
           <button
             type="submit"
             className="p-3 mt-8  bg-red-700 w-full"
